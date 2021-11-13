@@ -54,6 +54,6 @@ class BanlistController extends Controller
         return response()->json([
             "status" => "404",
             "message"   => "Not Banned"
-        ], 404);
+        ], 200);
     }
 }
